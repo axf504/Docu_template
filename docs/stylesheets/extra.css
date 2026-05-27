@@ -1,0 +1,37 @@
+/* Primary brand color */
+:root {
+  --md-primary-fg-color: #0A304E;
+  --md-primary-fg-color--light: #1a4a6e;
+  --md-primary-fg-color--dark: #051e32;
+  --md-primary-bg-color: #ffffff;
+}
+
+/* Warning admonition */
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border-color: #e6a817;
+}
+.md-typeset .warning > .admonition-title,
+.md-typeset .warning > summary {
+  background-color: rgba(230, 168, 23, 0.15);
+  border-color: #e6a817;
+}
+.md-typeset .warning > .admonition-title::before,
+.md-typeset .warning > summary::before {
+  background-color: #e6a817;
+}
+
+/* Info admonition */
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-color: #0A304E;
+}
+.md-typeset .info > .admonition-title,
+.md-typeset .info > summary {
+  background-color: rgba(10, 48, 78, 0.1);
+  border-color: #0A304E;
+}
+.md-typeset .info > .admonition-title::before,
+.md-typeset .info > summary::before {
+  background-color: #0A304E;
+}
