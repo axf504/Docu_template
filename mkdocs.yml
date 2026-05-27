@@ -1,0 +1,23 @@
+site_name: Documentation
+site_url: https://axf504.github.io/Docu_template/
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Quick Start: getting-started/quickstart.md
+    - Room Setup: getting-started/room-setup.md
+  - User Guide:
+    - Sending Content: user-guide/send-content.md
+    - Anchor Menu: user-guide/anchor-menu.md
+  - Advanced Features: advanced/advanced-features.md
+  - Troubleshooting: troubleshooting.md
+  - Developer Docs:
+    - API Reference: developer/api-reference.md
+    - SDK Guide: developer/sdk.md
+  - Release Notes: release-notes.md
