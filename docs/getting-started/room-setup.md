@@ -33,7 +33,12 @@ The **first device** to join a new room is responsible for placing the Anchor fo
 
 ### Place the Anchor
 
-![Unlocked Anchor: cyan sphere 1m above circular marker on floor](../images/Unlocked_anchor_cyan.png)
+<figure markdown="span">
+  ![Unlocked Anchor: cyan sphere 1m above circular marker on floor](../images/Unlocked_anchor_cyan.png){ align=right style="border-radius:6px;" }
+  <figcaption>Figure 1 — Unlocked Anchor</figcaption>
+</figure>
+
+
 1. Locate the unlocked Anchor — a floating sphere above a circular marker on the floor
 2. Grab the sphere and drag it to your desired position in the room
 3. Grab the grey **"Lock"** cube to confirm placement
