@@ -2,12 +2,16 @@ site_name: Documentation
 site_url: https://axf504.github.io/Docu_template/
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.sections
     - search.suggest
   palette:
     primary: custom
+
+extra:
+  generator: false
 
 extra_css:
   - stylesheets/extra.css
