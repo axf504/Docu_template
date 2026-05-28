@@ -28,9 +28,9 @@ nav:
   - Getting Started:
     - Quick Start: getting-started/quickstart.md
     - Room Setup: getting-started/room-setup.md
-  - User Guide:
-    - Sending Content: user-guide/send-content.md
-    - Anchor Menu: user-guide/anchor-menu.md
+  - Basic Use:
+    - Sending Content: basic-use/send-content.md
+    - Anchor Menu: basic-use/anchor-menu.md
   - Advanced Features: advanced/advanced-features.md
   - Troubleshooting: troubleshooting.md
   - Developer Docs:
