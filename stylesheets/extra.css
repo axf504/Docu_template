@@ -1,0 +1,70 @@
+/* Primary brand color */
+:root {
+  --md-primary-fg-color: #0A304E;
+  --md-primary-fg-color--light: #1a4a6e;
+  --md-primary-fg-color--dark: #051e32;
+  --md-primary-bg-color: #ffffff;
+}
+
+/* Warning admonition */
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border-color: #e6a817;
+}
+.md-typeset .warning > .admonition-title,
+.md-typeset .warning > summary {
+  background-color: rgba(230, 168, 23, 0.15);
+  border-color: #e6a817;
+}
+.md-typeset .warning > .admonition-title::before,
+.md-typeset .warning > summary::before {
+  background-color: #e6a817;
+}
+
+/* Custom footer */
+.custom-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 1.2rem 0;
+  text-align: center;
+  color: var(--md-footer-fg-color--light);
+}
+
+.custom-footer a {
+  color: var(--md-footer-fg-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.custom-footer a:hover {
+  text-decoration: underline;
+}
+
+.custom-footer p {
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+.custom-footer__links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+}
+
+/* Info admonition */
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-color: #0A304E;
+}
+.md-typeset .info > .admonition-title,
+.md-typeset .info > summary {
+  background-color: rgba(10, 48, 78, 0.1);
+  border-color: #0A304E;
+}
+.md-typeset .info > .admonition-title::before,
+.md-typeset .info > summary::before {
+  background-color: #0A304E;
+}
